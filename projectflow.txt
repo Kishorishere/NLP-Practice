@@ -1,0 +1,18 @@
+
+-------------------------------------------------------------------------------------------------------------------
+Text Preprocessing
+
+-Removing some parts of text before tokenization so that effective tokenization takes place
+---Things to remove           - Ways to remove
+  -Casing                      -Lowercase all the alphabets in all texts
+  -Removing html tags           -RegEx
+  -Removing Urls                -RegEx
+  -Removing Punctuations        -A dictionary is there containing all Punctuations in python ,find and remove
+  -Removing chat words          -A github repo has many chat words that can be replaced 
+  -spelling correction          -use Textblob library i.e textblob.correct()
+  -Removing stop words(optional for Pos tagging)         -nltk.corpus has english stopwords 
+  -tokenization                 - use either nltk or spacy (preferred) 
+  -stemming and lemmatization(opt for view purpose only) - Provided algoriths like Porter stemmer and a dictionary for lemmatization
+
+
+-----------------------------------------------------------------------------------------------------------------------  
